@@ -5,8 +5,7 @@ let notaExamen2 = 5;
 let notaProjecte = 9;
 
 // Claculo la nota final del estudiante.
-let notaFinal = notaExamen1 * 20 + notaExamen2 * 20 + notaProjecte * 60;
-notaFinal = notaFinal / 100;
+let notaFinal = notaExamen1 * 0.2 + notaExamen2 * 0.2 + notaProjecte * 0.6;
 
 // Muestro por consola los resultados obtenidos y si el estudiante ha aprobado o no.
 console.log("Estudiant: " + nomEstudiant);
